@@ -1,11 +1,12 @@
 {
-  "name": "chai-backend",
+  "name": "sometube",
   "version": "1.0.0",
   "description": "a backend at chai aur code channel - youtube",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "start": "node -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
